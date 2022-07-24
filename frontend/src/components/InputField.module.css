@@ -1,0 +1,26 @@
+.inputField {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0.5rem;
+}
+.input {
+  box-sizing: border-box;
+  font-size: inherit;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  color: white;
+  width: 75%;
+  background-color: #212429;
+  padding: 1.2rem;
+  border: none;
+}
+.inputButton {
+  box-sizing: border-box;
+  font-size: inherit;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: white;
+  width: 25%;
+  background-color: #212429;
+  padding: 1.2rem;
+}

@@ -1,0 +1,23 @@
+.app {
+  background-color: #2A232D;
+  height: 100vh;
+}
+.note {
+  margin: 0;
+  padding: 0.1rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.title {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  
+}
+.swapContainer {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
