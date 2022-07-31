@@ -18,9 +18,7 @@ const SwapCard = () => {
   const [ratio, setRatio] = useState(null);
   const [dexTokenBalance, setDexTokenBalance] = useState(0);
   const getRatio = async() => {
-    const web3Modal = new Web3Modal();
-    const connection = await web3Modal.connect();
-    const provider = new ethers.providers.Web3Provider(connection);
+    const provider = new ethers.providers.JsonRpcProvider(`https://rinkeby.infura.io/v3/78461cdd8b4749968b9955a3c5f67846`);
     const contract = new ethers.Contract(TokeSwapAddress,TokeSwap.abi, provider);
     const ratio = await contract.ethToDexRatio();
     setRatio(ratio.toString());
